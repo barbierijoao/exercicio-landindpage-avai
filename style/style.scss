@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+
+/* INICIO DOS ESTILOS GLOBAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #006097;
+    --white: #fff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, a {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* FINAL DOS ESTILOS GLOBAIS */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    
+    background-image: url(../assets/principal/background-container-avai.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* INICIO ESTILOS DO HEADER */
+
+    header {
+        width: 100%;
+        height: 130px;
+        padding: 0 60px;
+
+        background-color: var(--blue);
+        border-bottom: 5px solid var(--white);
+        border-radius: 0px 0px 20px 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap: 160px;
+
+        a{
+            img {
+                width: 180px;
+                height: 110px;
+                object-fit: cover;
+            }
+        }
+
+        .navigation {
+
+            .nav-menu {
+                display: flex;
+                align-items: center;
+                gap: 60px;
+
+                li a {
+                    color: var(--white);
+                    font-size: 20px;
+                    font-weight: 600;
+                    transition: all 0.3s;
+
+                    &:hover {
+                        color: #b6b6b6;
+                    }
+                }
+            }
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+
+            a {
+                i{
+                    font-size: 55px;
+                    color: var(--white);
+                    transition: all 0.3s;
+
+                    &:hover {
+                        color: #b6b6b6;
+                    }
+                }
+            }
+        }
+
+    /* FIM ESTILOS DO HEADER */
+    }
+
+    .container-bottom {
+        width: 100%;
+        height: 89vh;
+
+        display: flex;
+
+        .section-media {
+            width: 100px;
+            height: 50vh;
+
+            background-color: red;
+
+
+            display: flex;
+            align-items: end;
+
+            .navigation-media {
+                width: 100%;
+                height: 450px;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                background-color: var(--blue);
+
+                border-radius: 0px 20px 20px 0px;
+                border: 5px solid var(--white);
+
+                .nav-media {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 30px;
+
+                    li a {
+                        font-size: 28px;
+                        color: var(--white);
+
+                        transition: all 0.3s;
+
+                        &:hover {
+                            color: #b6b6b6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
