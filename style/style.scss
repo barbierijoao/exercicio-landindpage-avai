@@ -103,10 +103,14 @@ ul, a {
         height: 89vh;
 
         display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 115px;
 
         .section-media {
             width: 100px;
-            height: 55vh;
+            height: 21vh;
 
             display: flex;
             align-items: end;
@@ -143,7 +147,7 @@ ul, a {
             }
         }
 
-        .main-content {
+        .main-nextgame {
             width: 100%;
             height: 89vh;
 
@@ -152,7 +156,7 @@ ul, a {
             .content-nextgame {
                 width: 570px;
                 height: 825px;
-                margin: 200px 50px;
+                margin: 200px -60px;
 
                 display: flex;
                 flex-direction: column;
@@ -244,8 +248,8 @@ ul, a {
                         gap: 10px;
 
                         .avai {
-                            width: 90px;
-                            height: 105px;
+                            width: 100px;
+                            height: 100px;
                         }
 
                         img {
@@ -253,7 +257,7 @@ ul, a {
                            height: 100px; 
                         }
 
-                        .text {
+                        .text-game {
                            display: flex;
                            flex-direction: column; 
                            align-items: center;
@@ -308,8 +312,8 @@ ul, a {
                         gap: 10px;
 
                         .avai {
-                            width: 90px;
-                            height: 105px;
+                            width: 100px;
+                            height: 100px;
                         }
 
                         img {
@@ -317,7 +321,7 @@ ul, a {
                             height: 100px;
                         }
 
-                        .text {
+                        .text-game {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
@@ -372,11 +376,11 @@ ul, a {
                         gap: 10px;
 
                         .avai {
-                            width: 90px;
-                            height: 105px;
+                            width: 100px;
+                            height: 100px;
                         }
 
-                        .text  {
+                        .text-game  {
                             display: flex;
                             flex-direction: column;
                             align-items: center;
@@ -405,6 +409,107 @@ ul, a {
                     }
                 }
             }
+        }
+
+        .main-lastgame {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            align-items: end;
+
+            .content-lastgame {
+               width: 500px;
+               height: 180px;
+               
+               background-color: var(--blue);
+               border: 5px solid var(--white);
+               border-radius: 20px;
+               margin: 20px 0px;
+
+               display: flex;
+               align-items: center;
+               flex-direction: column;
+               justify-content: center;
+               gap: 3px; 
+
+               .lastgame {
+                width: 100%;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+
+                h1 {
+                    font-size: 30px;
+                    font-weight: 400;
+                    color: var(--white);   
+                }
+
+                .content-lastgame1 {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    h2 {
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: var(--white);
+                    }
+
+                    .content-last {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .avai-lastgame {
+                            width: 100px;
+                            height: 80px;
+                        }
+
+                        .text-last {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            h2 {
+                                font-size: 30px;
+                                font-weight: bold;
+                                color: var(--white);   
+                            }
+
+                            h3 {
+                              font-size: 13px;
+                              font-weight: 400;
+                              color: var(--white);  
+                            }
+
+                            h4 {
+                                font-size: 17px;
+                                font-weight: 400;
+                                color: var(--white);
+                            }
+                        }
+
+                        img {
+                            width: 70px;
+                            height: 80px;
+                            margin: 0 20px;
+                        }
+                    }
+                }
+               }
+            }
+        }
+
+        .main-championship {
+            width: 100%;
+            height: 100%;
+            background-color: green;
         }
     }
 }

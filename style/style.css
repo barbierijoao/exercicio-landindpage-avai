@@ -79,10 +79,13 @@ ul, a {
   width: 100%;
   height: 89vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 115px;
 }
 .container .container-bottom .section-media {
   width: 100px;
-  height: 55vh;
+  height: 21vh;
   display: flex;
   align-items: end;
 }
@@ -109,22 +112,22 @@ ul, a {
 .container .container-bottom .section-media .navigation-media .nav-media li a:hover {
   color: #b6b6b6;
 }
-.container .container-bottom .main-content {
+.container .container-bottom .main-nextgame {
   width: 100%;
   height: 89vh;
   display: flex;
 }
-.container .container-bottom .main-content .content-nextgame {
+.container .container-bottom .main-nextgame .content-nextgame {
   width: 570px;
   height: 825px;
-  margin: 200px 50px;
+  margin: 200px -60px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-.container .container-bottom .main-content .content-nextgame .navigation-sponsor {
+.container .container-bottom .main-nextgame .content-nextgame .navigation-sponsor {
   width: 100%;
   height: 95px;
   background-color: var(--blue);
@@ -132,7 +135,7 @@ ul, a {
   border-radius: 20px;
   display: flex;
 }
-.container .container-bottom .main-content .content-nextgame .navigation-sponsor .nav-sponsor {
+.container .container-bottom .main-nextgame .content-nextgame .navigation-sponsor .nav-sponsor {
   width: 100%;
   display: flex;
   align-items: center;
@@ -140,11 +143,11 @@ ul, a {
   flex-direction: row-reverse;
   gap: 30px;
 }
-.container .container-bottom .main-content .content-nextgame .navigation-sponsor .nav-sponsor a img {
+.container .container-bottom .main-nextgame .content-nextgame .navigation-sponsor .nav-sponsor a img {
   width: 80px;
   height: 50px;
 }
-.container .container-bottom .main-content .nextgame {
+.container .container-bottom .main-nextgame .nextgame {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,19 +159,19 @@ ul, a {
   border-radius: 20px;
   gap: 3px;
 }
-.container .container-bottom .main-content .nextgame .games {
+.container .container-bottom .main-nextgame .nextgame .games {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
 }
-.container .container-bottom .main-content .nextgame h1 {
+.container .container-bottom .main-nextgame .nextgame h1 {
   font-size: 30px;
   font-weight: 600;
   color: var(--white);
 }
-.container .container-bottom .main-content .nextgame .game-1 {
+.container .container-bottom .main-nextgame .nextgame .game-1 {
   width: 470px;
   height: 200px;
   background-color: var(--white);
@@ -178,99 +181,48 @@ ul, a {
   flex-direction: column;
   justify-content: center;
 }
-.container .container-bottom .main-content .nextgame .game-1 .title-1 {
+.container .container-bottom .main-nextgame .nextgame .game-1 .title-1 {
   font-size: 17px;
   font-weight: 400;
   color: var(--blue);
 }
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 .avai {
-  width: 90px;
-  height: 105px;
-}
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 img {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 .avai {
   width: 100px;
   height: 100px;
 }
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 .text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 .text h1 {
-  color: var(--blue);
-  font-size: 35px;
-  font-weight: 600;
-}
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 .text h2 {
-  font-size: 25px;
-  font-weight: 500;
-  color: var(--blue);
-}
-.container .container-bottom .main-content .nextgame .game-1 .content-game1 .text h3 {
-  font-size: 25px;
-  font-weight: 500;
-  color: var(--blue);
-}
-.container .container-bottom .main-content .nextgame .game-2 {
-  width: 470px;
-  height: 200px;
-  background-color: var(--white);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.container .container-bottom .main-content .nextgame .game-2 .title-2 {
-  font-size: 17px;
-  font-weight: 400;
-  color: var(--blue);
-}
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 .avai {
-  width: 90px;
-  height: 105px;
-}
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 img {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 img {
   width: 100px;
   height: 100px;
 }
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 .text {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 .text-game {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 8px;
 }
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 .text h1 {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 .text-game h1 {
   color: var(--blue);
   font-size: 35px;
   font-weight: 600;
 }
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 .text h2 {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 .text-game h2 {
   font-size: 25px;
   font-weight: 500;
   color: var(--blue);
 }
-.container .container-bottom .main-content .nextgame .game-2 .content-game2 .text h3 {
+.container .container-bottom .main-nextgame .nextgame .game-1 .content-game1 .text-game h3 {
   font-size: 25px;
   font-weight: 500;
   color: var(--blue);
 }
-.container .container-bottom .main-content .nextgame .game-3 {
+.container .container-bottom .main-nextgame .nextgame .game-2 {
   width: 470px;
   height: 200px;
   background-color: var(--white);
@@ -280,40 +232,173 @@ ul, a {
   align-items: center;
   justify-content: center;
 }
-.container .container-bottom .main-content .nextgame .game-3 .title-3 {
+.container .container-bottom .main-nextgame .nextgame .game-2 .title-2 {
   font-size: 17px;
   font-weight: 400;
   color: var(--blue);
 }
-.container .container-bottom .main-content .nextgame .game-3 .content-game3 {
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
-.container .container-bottom .main-content .nextgame .game-3 .content-game3 .avai {
-  width: 90px;
-  height: 105px;
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 .avai {
+  width: 100px;
+  height: 100px;
 }
-.container .container-bottom .main-content .nextgame .game-3 .content-game3 .text {
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 img {
+  width: 100px;
+  height: 100px;
+}
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 .text-game {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 8px;
 }
-.container .container-bottom .main-content .nextgame .game-3 .content-game3 .text h1 {
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 .text-game h1 {
   color: var(--blue);
   font-size: 35px;
   font-weight: 600;
 }
-.container .container-bottom .main-content .nextgame .game-3 .content-game3 .text h2 {
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 .text-game h2 {
   font-size: 25px;
   font-weight: 500;
   color: var(--blue);
 }
-.container .container-bottom .main-content .nextgame .game-3 .content-game3 .text h3 {
+.container .container-bottom .main-nextgame .nextgame .game-2 .content-game2 .text-game h3 {
   font-size: 25px;
   font-weight: 500;
   color: var(--blue);
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 {
+  width: 470px;
+  height: 200px;
+  background-color: var(--white);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .title-3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--blue);
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .content-game3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .content-game3 .avai {
+  width: 100px;
+  height: 100px;
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .content-game3 .text-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .content-game3 .text-game h1 {
+  color: var(--blue);
+  font-size: 35px;
+  font-weight: 600;
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .content-game3 .text-game h2 {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--blue);
+}
+.container .container-bottom .main-nextgame .nextgame .game-3 .content-game3 .text-game h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--blue);
+}
+.container .container-bottom .main-lastgame {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+}
+.container .container-bottom .main-lastgame .content-lastgame {
+  width: 500px;
+  height: 180px;
+  background-color: var(--blue);
+  border: 5px solid var(--white);
+  border-radius: 20px;
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame h1 {
+  font-size: 30px;
+  font-weight: 400;
+  color: var(--white);
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 h2 {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--white);
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last .avai-lastgame {
+  width: 100px;
+  height: 80px;
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last .text-last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last .text-last h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--white);
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last .text-last h3 {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--white);
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last .text-last h4 {
+  font-size: 17px;
+  font-weight: 400;
+  color: var(--white);
+}
+.container .container-bottom .main-lastgame .content-lastgame .lastgame .content-lastgame1 .content-last img {
+  width: 70px;
+  height: 80px;
+  margin: 0 20px;
+}
+.container .container-bottom .main-championship {
+  width: 100%;
+  height: 100%;
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */
