@@ -106,10 +106,7 @@ ul, a {
 
         .section-media {
             width: 100px;
-            height: 50vh;
-
-            background-color: red;
-
+            height: 55vh;
 
             display: flex;
             align-items: end;
@@ -140,6 +137,270 @@ ul, a {
 
                         &:hover {
                             color: #b6b6b6;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-content {
+            width: 100%;
+            height: 89vh;
+
+            display: flex;
+
+            .content-nextgame {
+                width: 570px;
+                height: 825px;
+                margin: 200px 50px;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                gap: 20px;
+
+                .navigation-sponsor {
+                    width: 100%;
+                    height: 95px;
+                    background-color: var(--blue);
+                    border: 5px solid var(--white);
+                    border-radius: 20px;
+
+                    display: flex;
+
+                    .nav-sponsor {
+                        width: 100%;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: row-reverse;
+
+                        gap: 30px;
+
+                        a img {
+                           width: 80px;
+                           height: 50px; 
+                        }
+                    }
+                }
+            }
+
+            .nextgame {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                width: 500px;
+                height: 710px;
+
+                background-color: var(--blue);
+                border: 5px solid var(--white);
+                border-radius: 20px;
+
+                gap: 3px;
+
+                .games {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    gap: 20px;
+                }
+
+                h1 {
+                   font-size: 30px;
+                   font-weight: 600;
+                   color: var(--white);
+                }
+
+                .game-1 {
+                    width: 470px;
+                    height: 200px;
+
+                    background-color: var(--white);
+                    border-radius: 20px;
+
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    justify-content: center;
+
+                    .title-1 {
+                      font-size: 17px;
+                      font-weight: 400;
+                      color: var(--blue);  
+                    }
+
+                    .content-game1 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        gap: 10px;
+
+                        .avai {
+                            width: 90px;
+                            height: 105px;
+                        }
+
+                        img {
+                           width: 100px;
+                           height: 100px; 
+                        }
+
+                        .text {
+                           display: flex;
+                           flex-direction: column; 
+                           align-items: center;
+                           justify-content: center;
+                           gap: 8px;
+
+
+                           h1 {
+                            color: var(--blue);
+                            font-size: 35px;
+                            font-weight: 600;
+                           }
+
+                           h2 {
+                            font-size: 25px;
+                            font-weight: 500;
+                            color: var(--blue);
+                           }
+
+                           h3 {
+                            font-size: 25px;
+                            font-weight: 500;
+                            color: var(--blue);
+                           }
+                        }
+                    }
+                }
+
+                .game-2 {
+                    width: 470px;
+                    height: 200px;
+
+                    background-color: var(--white);
+                    border-radius: 20px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
+                    .title-2 {
+                        font-size: 17px;
+                        font-weight: 400;
+                        color: var(--blue);
+                    }
+
+                    .content-game2 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        gap: 10px;
+
+                        .avai {
+                            width: 90px;
+                            height: 105px;
+                        }
+
+                        img {
+                            width: 100px;
+                            height: 100px;
+                        }
+
+                        .text {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            
+                            gap: 8px;
+
+                            h1 {
+                                color: var(--blue);
+                                font-size: 35px;
+                                font-weight: 600;  
+                            }
+
+                            h2 {
+                                font-size: 25px;
+                                font-weight: 500;
+                                color: var(--blue); 
+                            }
+
+                            h3 {
+                                font-size: 25px;
+                                font-weight: 500;
+                                color: var(--blue);
+                            }
+                        }
+                    }
+                }
+
+                .game-3 {
+                    width: 470px;
+                    height: 200px;
+
+                    background-color: var(--white);
+                    border-radius: 20px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center; 
+
+                    .title-3 {
+                        font-size: 17px;
+                        font-weight: 400;
+                        color: var(--blue);
+                    }
+
+                    .content-game3 {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        gap: 10px;
+
+                        .avai {
+                            width: 90px;
+                            height: 105px;
+                        }
+
+                        .text  {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            gap: 8px;
+
+                            h1 {
+                                color: var(--blue);
+                                font-size: 35px;
+                                font-weight: 600;  
+                            }
+
+                            h2 {
+                                font-size: 25px;
+                                font-weight: 500;
+                                color: var(--blue);  
+                            }
+
+                            h3 {
+                                font-size: 25px;
+                                font-weight: 500;
+                                color: var(--blue);
+                            }
                         }
                     }
                 }
