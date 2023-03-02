@@ -109,8 +109,9 @@ ul, a {
         gap: 115px;
 
         .section-media {
-            width: 100px;
+            width: 300px;
             height: 21vh;
+
 
             display: flex;
             align-items: end;
@@ -186,7 +187,7 @@ ul, a {
 
                         a img {
                            width: 80px;
-                           height: 50px; 
+                           height: 50px;
                         }
                     }
                 }
@@ -468,6 +469,7 @@ ul, a {
                         .avai-lastgame {
                             width: 100px;
                             height: 80px;
+                            margin: auto 2px;
                         }
 
                         .text-last {
