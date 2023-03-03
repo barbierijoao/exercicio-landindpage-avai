@@ -516,8 +516,147 @@ ul, a {
             background-color: green;
 
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: end;
+
+            .content-championship {
+                width: 500px;
+                height: 790px;
+                margin: 30px 0px;
+
+                background-color: red;
+
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+
+                .banners {
+                    width: 365px;
+                    height: 280px;
+
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    gap: 20px;
+
+                    div {
+                       a img {
+                        width: 365px;
+                        height: 130px;
+
+                        border-radius: 20px;
+                        border: 5px solid var(--white);
+                        transition: all 0.2s;
+
+                        &:hover {
+                            border: 5px solid #b6b6b6;
+                        }
+                       } 
+                    }
+                }
+
+                .content-table {
+                   width: 100%;
+                   height: 370px;
+                   
+                   background-color: var(--blue);
+                   border: 5px solid var(--white);
+                   border-radius: 20px;
+
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   justify-content: center;
+
+                   .table {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    h1 {
+                        font-size: 23px;
+                        font-weight: 400;
+                        color: var(--white);   
+                    }
+
+                    table {
+                        display: flex;
+                        align-items: center;
+                        flex-direction: column;
+                        justify-content: center;
+
+
+                        thead {
+                            font-size: 17px;
+                            font-weight: 400;
+                            color: var(--white);
+
+                            tr {
+                                display: flex;
+                                justify-content: center;
+                                gap: 40px;
+                            }
+                        }
+
+                        tbody {
+                            font-size: 17px;
+                            font-weight: 400;
+                            color: var(--white);
+
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+
+                            gap: 10px;
+
+                            tr {
+                                display: flex;
+                                gap: 30px;
+
+
+                                td {
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+
+                                    padding: 5px 10px;
+                                }
+                                
+                                .first {
+                                   width: 23px;
+                                   height: 27px;
+                                }
+
+                                .second {
+                                    width: 23px;
+                                    height: 28px;
+                                }
+
+                                .third {
+                                    width: 27px;
+                                    right: 20px;
+                                }
+
+                                .fourth {
+                                   width: 23px;
+                                   height: 23px; 
+                                }
+
+                                .fifth {
+                                    width: 23px;
+                                    height: 23px;
+                                }
+                            }
+                        }
+                    }
+                   }
+                }
         }
     }
 }
