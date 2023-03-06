@@ -570,24 +570,29 @@ ul, a {
                    align-items: center;
                    justify-content: center;
 
+                   gap: 10px;
+
+                   h1 {
+                    font-size: 17px;
+                    font-weight: 600;
+                    color: var(--white);
+
+                   }
+
                    .table {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
                     gap: 10px;
-
-                    h1 {
-                        font-size: 23px;
-                        font-weight: 400;
-                        color: var(--white);   
-                    }
-
+                    
                     table {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         justify-content: center;
+
+                        padding: 10px 10px;
 
 
                         thead {
@@ -598,7 +603,7 @@ ul, a {
                             tr {
                                 display: flex;
                                 justify-content: center;
-                                gap: 40px;
+                                gap: 30px;
                             }
                         }
 
@@ -607,16 +612,17 @@ ul, a {
                             font-weight: 400;
                             color: var(--white);
 
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-
-                            gap: 10px;
+                            gap: 0px;
 
                             tr {
                                 display: flex;
-                                gap: 30px;
+                                gap: 20px;
+
+                                img {
+                                    width: 35%;
+                                    aspect-ratio: 3/2;
+                                    object-fit: contain;
+                                }
 
 
                                 td {
@@ -625,31 +631,6 @@ ul, a {
                                     justify-content: center;
 
                                     padding: 5px 10px;
-                                }
-                                
-                                .first {
-                                   width: 23px;
-                                   height: 27px;
-                                }
-
-                                .second {
-                                    width: 23px;
-                                    height: 28px;
-                                }
-
-                                .third {
-                                    width: 27px;
-                                    right: 20px;
-                                }
-
-                                .fourth {
-                                   width: 23px;
-                                   height: 23px; 
-                                }
-
-                                .fifth {
-                                    width: 23px;
-                                    height: 23px;
                                 }
                             }
                         }
